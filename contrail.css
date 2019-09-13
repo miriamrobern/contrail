@@ -1,0 +1,250 @@
+body {
+	font-family: Sans-Serif;
+}
+
+.entryLink {
+	color: cyan;
+	cursor: pointer;
+}
+
+.entryLink:active {
+	color: darkcyan;
+}
+
+.entryLink:hover {
+	text-decoration: underline;
+}
+
+.codeSpan {
+	font-family: monospace;
+	background-color: gray;
+	color: black;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	hyphens: none;
+}
+
+.codeBox {
+	font-family: monospace;
+	background-color: gray;
+	color: black;
+	width: 90%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.indent1 {
+	text-indent: 2vw;
+}
+
+.indent2 {
+	text-indent: 4vw;
+}
+
+.indent3 {
+	text-indent: 6vw;
+}
+
+.indent4 {
+	text-indent: 8vw;
+}
+
+.indent5 {
+	text-indent: 10vw;
+}
+
+#contrailDiv {
+}
+
+#contrailLeftColumn {
+	height: 100%;
+	width: 25%;
+	float: left;
+}
+
+#contrailTitleDiv {
+	height: 10%;
+	overflow: hidden;
+}
+
+#contrailPortraitDiv {
+	height: 40%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.portraitSVG {
+	height: 100%;
+	max-height: 100%;
+}
+
+#contrailStatsDiv {
+	height: 25%;
+	overflow: hidden;
+}
+
+#contrailActionsDiv {
+	height: 25%;
+	overflow: hidden;
+}
+
+#gameActionsDiv {
+	height: 80%;
+	overflow: auto;
+}
+
+#defaultActionsDiv {
+}
+
+#contrailCenterColumn {
+	height: 100%;
+	width: 49%;
+	float: left;
+}
+
+#contrailFeedDiv {
+	margin-left: 2vw;
+	margin-right: 2vw;
+	height: 100%;
+	max-height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#contrailFeedDiv div {
+	width: 95%;
+}
+
+.oldEntry {
+	opacity: 0.6;
+}
+
+.oldEntry button {
+	display: none;
+}
+
+.oldEntry .entryLink {
+	display:none;
+}
+
+.oldEntry .inventoryDiv {
+	display: none;
+}
+
+.oldEntry .hideWhenOld {
+	display: none;
+}
+
+.currentEntry {
+	opacity: 1;
+}
+
+.currentEntry button, input {
+	display: inline;
+}
+
+.currentEntry .deadLink {
+	display: none;
+}
+
+.inventoryDiv {
+	margin: 2vw;
+	padding: 1vw;
+}
+
+.inventoryDiv button {
+	margin-left: 0.5vw;
+}
+
+.locationNameHead {
+	border-bottom: 1px solid grey;
+	width: 100%;
+}
+
+#contrailRightColumn {
+	height: 100%;
+	width: 25%;
+	float: right;
+}
+
+#contrailTimeDiv {
+	height: 5%;
+	overflow: hidden;
+}
+
+#contrailMapDiv {
+	height: 50%;
+	overflow: hidden;
+}
+
+#contrailContextualDiv {
+	height: 45%;
+	overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h1 {
+	font-size: 1.4em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+ul {
+	margin-top: 0;
+}
+
+button {
+	font-size: 0.75em;
+	font-weight: bold;
+	max-height: 1.5em;
+	border-radius: 0.65em;
+	margin-left: 0.25em;
+	border: 1px solid black;
+}
+
+button:disabled {
+	background-color: #555;
+	color: #222;
+	font-weight: normal;
+}
+
+button:hover {
+	color: black;
+	background-color: cyan;
+}
+
+.hidden {
+	display: none;
+}
+
+.actionsNode button {
+	background-color: lightcyan;
+}
+
+.contentsNode button {
+	background-color: lightblue;
+}
+
+.exitsNode button {
+	background-color: palegreen;
+}
+
+.contextualUseNode Button {
+	background-color: lightcyan;
+}
